@@ -4,14 +4,35 @@
     <title>Terminal Portfolio</title>
     <style>
         body {
-            background: black;
-            color: green;
+            background-color: #000;
+            color: #33ff33;
             font-family: monospace;
+            padding: 20px;
+        }
+        #terminal {
+            white-space: pre-wrap;
+        }
+        #input-line {
+            display: inline;
+        }
+        input {
+            background: black;
+            color: #33ff33;
+            border: none;
+            outline: none;
+            font: inherit;
+            width: 90%;
         }
     </style>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
-    <h1>> Hello, I'm Shahnawaz</h1>
-    <p>> Welcome to my terminal-style portfolio!</p>
+    <div id="terminal">
+        Welcome to my terminal portfolio! Type 'help' to see available commands.<br><br>
+    <div id="input-line">
+        <span>> </span><input type="text" id="cmd" autofocus />
+    </div>
+
+    <script src="{{ url_for('static', filename='terminal.js') }}"></script>
 </body>
 </html>
