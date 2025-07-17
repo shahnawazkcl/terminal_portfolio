@@ -1,8 +1,14 @@
 # Terminal Portfolio
 
 ![Status](https://img.shields.io/badge/status-work--in--progress-yellow)
+![GitHub Pages](https://img.shields.io/badge/github-pages-active)
+![GitHub last commit](https://img.shields.io/github/last-commit/shahnawazkcl/terminal_portfolio)
+[![MIT License](https://img.shields.io/badge/License-MIT%20License-orange)](https://opensource.org/license/mit)
+[![PRs welcome](https://img.shields.io/badge/Prs-welcome-brightgreen)](https://github.com/shahnawazkcl/terminal_portfolio/pulls)
+[![Forks](https://img.shields.io/github/forks/shahnawazkcl/terminal_portfolio)](https://github.com/shahnawazkcl/terminal_portfolio/forks)
+![Commit](https://img.shields.io/github/commit-activity/t/shahnawazkcl/terminal_portfolio)
 
-This is a terminal-style portfolio website built with Flask and Frozen-Flask, then deployed using GitHub Pages.
+This is a terminal-style portfolio website built with `Flask` and `Frozen-Flask`, then deployed using GitHub Pages.
 
 ## Features
 
