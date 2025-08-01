@@ -1,38 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A terminal-style portfolio showcasing my projects and skills.">
+    <meta name="keywords" content="portfolio, terminal, projects, skills, HTML, CSS, JavaScript, Flask">
+    <meta name="author" content="SAli">
+    <link rel="stylesheet" href="static/css/style.css">
     <title>Terminal Portfolio</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #33ff33;
-            font-family: monospace;
-            padding: 20px;
-        }
-        #terminal {
-            white-space: pre-wrap;
-        }
-        #input-line {
-            display: inline;
-        }
-        input {
-            background: black;
-            color: #33ff33;
-            border: none;
-            outline: none;
-            font: inherit;
-            width: 90%;
-        }
-    </style>
-    <link rel="icon" type="image/x-icon" src="static/favicon.ico" >
+    <link rel="icon" type="image/x-icon" src="static/img/favicon.ico" >
 </head>
 <body>
-    <div id="terminal">
-        Welcome to my terminal portfolio! Type 'help' to see available commands.<br><br>
-    <div id="input-line">
-        <span>> </span><input type="text" id="cmd" autofocus />
-    </div>
+    <div class="main-container">
+        <h1>Welcome to My Terminal Portfolio</h1>
+        <p>Type 'help' to see available commands.</p>
+        
+        <div id="terminal-output"></div>
 
-    <script src="static/terminal.js"></script>
+        <div class="input-container">
+            <span class="input-label">&gt; </span>
+            <input type="text" id="terminal-input" autofocus />
+        </div>
+    </div>
+    
+    <script src="static/js/terminal.js"></script>
 </body>
 </html>
