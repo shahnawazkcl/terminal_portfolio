@@ -15,6 +15,7 @@ body {
 .input-label {
     margin-right: 5px;
     color: #33ff33;
+    margin-top: 5px;
 }
 
 #terminal-input {
@@ -25,4 +26,10 @@ body {
     outline: none;
     font: inherit;
     padding: 5px;
+}
+
+#terminal-output div{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 6px;
 }
