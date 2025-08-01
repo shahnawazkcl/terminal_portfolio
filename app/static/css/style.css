@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    color: #33ff33;
+    font-family: monospace;
+    padding: 20px;
+    }
+.main-container {
+    max-width: 800px;
+    margin: auto;
+}
+.input-container {
+    display: flex;
+    margin-top: 10px;
+}
+.input-label {
+    margin-right: 5px;
+    color: #33ff33;
+}
+
+#terminal-input {
+    flex: 1;
+    background: black;
+    color: #33ff33;
+    border: none;
+    outline: none;
+    font: inherit;
+    padding: 5px;
+}
